@@ -1,0 +1,28 @@
+.nav-bar {
+    background-color: #181818;
+    width: 80px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    min-height: 500px;
+}
+
+.logo {
+    display: block;
+    padding: 8px 0;
+}
+
+img{
+    display: block;
+    margin: 2px auto;
+    width: 70px;
+    height: auto;
+    &.sub-logo {
+        width: 70px;
+
+        -webkit-filter: drop-shadow(5px 5px 5px grey);
+        filter: drop-shadow(5px 5px 5px grey);
+    }
+}
+
